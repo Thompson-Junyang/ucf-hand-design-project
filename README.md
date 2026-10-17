@@ -1,60 +1,20 @@
 # UCF Robotic Hand Design Project
 
-This repository is a **curated copy of the original ORCA Hand design files**, organized for the UCF robotic hand project. At this stage, the work completed here is **file collection, review, and organization**—not a completed mechanical redesign.
+I am Junyang. I created this repository as an **organized copy of the original ORCA Hand design files** for the UCF robotic hand project. So far, I have collected, reviewed, and sorted the files into a more convenient structure. **I have not yet redesigned the hardware.**
 
-Our next major objective is to **replace the original ORCA Hand actuators with Dynamixel AX-18A servos**. The AX-18A conversion is **planned, not implemented**; the current models should not be assumed to fit AX-18A motors.
+My next major objective is to **replace the original ORCA Hand actuators with Dynamixel AX-18A servos**. The AX-18A conversion is **planned, not implemented yet**; the current models should not be assumed to fit AX-18A motors.
 
 ## Official ORCA Hand resources
 
 - **Official website:** [ORCA Hand](https://www.orcahand.com/)
 - **Fabrication and assembly tutorial:** [ORCA Hand full fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3)
 
-## UCF-Reviewed Bill of Materials (BOM) — Read Before Purchasing
-
-> [!WARNING]
-> **Do not use the original ORCA Hand README or official BOM as the purchasing authority for this project.** During our review, we identified **multiple errors, omissions, and inconsistencies** in the official documentation. Some quantities, dimensions, and hardware revisions do not agree with the updated assembly instructions. The official files remain useful as design references, but **do not order components directly from their lists without checking this project's BOM and the actual CAD/assembly revision**.
-
-**Primary project BOM:** [`ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx`](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) — a reorganized, reviewed component and procurement workbook prepared for this project (October 2026). **Use this workbook first** for the current ORCA V2 baseline, while treating entries marked `VERIFY`, `VERIFY CAD`, or similar as unresolved rather than purchase-ready.
-
-The workbook contains the following worksheets:
-
-| Worksheet | What it covers |
-|---|---|
-| `Read Me` | Scope, quantities, revision cautions, and sourcing notes. |
-| `Common Hardware` | Bearings, pins, magnets, nuts, washers, and screws used across configurations. |
-| `Tendons and PTFE` | UHMWPE tendon line, timing belt, and PTFE guide tubing. |
-| `Printed and Silicone` | Printed parts, molds, PLA, silicone, and skin components. |
-| `Franka Interface` | Optional mounting hardware when attaching the hand to a Franka robot arm. |
-| `Dynamixel DX` | Original Dynamixel configuration: servos, power, communication, cooling, fasteners, and cables. |
-| `Feetech FT` | Alternative Feetech configuration: servos, power, communication, cooling, fasteners, and cables. |
-
-### How to use the BOM
-
-1. **Build scope:** quantities are for **one hand (left or right)**. Choose **one** original motor configuration (`Dynamixel DX` **or** `Feetech FT`), not both.
-2. **Quantities:** `Assembly Qty` is the installed quantity; `Spare Qty` is the extra allowance; `Purchase Qty` includes listed spares. Check units in the notes (for example, tendon length is in meters).
-3. **Status:** `Confirmed` reflects the current BOM review, **not a guarantee that the item has been physically test-fitted**. `VERIFY`, `VERIFY CAD`, and other qualifications require follow-up before ordering.
-4. **Known conflicts:** the two wrist-bearing options (`6×13×5 mm` original and `8×13×4 mm` addendum) are **alternatives**. Verify the selected CAD/revision and **do not buy both by default**. The addendum also introduces `Ø3×50 mm` carpal wrist pins and `Ø2×30 mm` thumb AP pins.
-5. **PTFE and print revisions:** several PTFE diameters/lengths remain to be verified; the finger AP tube count assumes five AP parts. V1100 spools have **four** screw holes, whereas V1000 spools have **five**. Match parts to the correct print revision.
-6. **Optional hardware:** Franka interface components can be omitted if the hand uses another mounting arrangement.
-7. **Pricing:** supplier, unit price, and extended-cost fields are intentionally available for procurement planning; blanks are **not** zero-cost items.
-
-### Original actuator reference — not the AX-18A redesign
-
-| Original configuration | Wrist actuator | Finger actuators |
-|---|---|---|
-| Dynamixel DX | `XC430-T240BB-T` × 1 | `XC330-T288-T` × 16 |
-| Feetech FT | `HL-3930-Plastic` × 1 | `HL-2915-Plastic` × 16 |
-
-These are **baseline reference configurations**, not motors to purchase automatically. Our intended **AX-18A conversion is future work**. The original motor counts and power/control parts must be re-evaluated for the redesigned system; the current workbook is **not yet an AX-18A-specific BOM**.
-
-**Related resources:** [ORCA Hand official site](https://www.orcahand.com/) · [Full fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3) · [`ASSEMBLY_ADDENDUM.md`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/full%20v2%20hand%20files/ASSEMBLY_ADDENDUM.md)
-
 ## Where to start
 
 1. Open [`all files we corrently need/orca_v2/base_basic v2 version start with this folder/`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/).
 2. Start with `Prints-1100_the hand 3d designed files.3mf` for the hand print plates and `SiliconeMolds-1100_the mold 3d file for silicon skin.3mf` for the silicone-skin molds.
 3. For individual STL and STEP components, open `full v2 hand files/` inside the same directory.
-4. Consult the [UCF-reviewed BOM](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) before purchasing hardware. Read `full v2 hand files/ASSEMBLY_ADDENDUM.md` alongside the [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3). The addendum includes important corrections about PTFE tubes, thumb pins, carpal bearings, and spools.
+4. Read `full v2 hand files/ASSEMBLY_ADDENDUM.md` alongside the [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3). The addendum includes important corrections about PTFE tubes, thumb pins, carpal bearings, and spools. I have already organized the project BOM; see the final section for my completed reference workbook.
 5. Treat the `touch` and `lite` directories as alternative designs, not as required components of the base build.
 
 > **Important:** The current files include original Dynamixel and Feetech-specific parts. A filename containing `Dynamixel` does **not** establish compatibility with the AX-18A. Check dimensions, horn interface, fasteners, cable routing, torque, and power requirements before fabrication.
@@ -65,7 +25,7 @@ The directory names below are reproduced **exactly as stored in this repository*
 
 ### 1. `all files we corrently need/` — selected working files
 
-This is the **recommended working collection** for the project, containing the ORCA V2 designs selected for initial study and future modification.
+This is the **working collection I selected and organized** for the project, containing the ORCA V2 designs I plan to study and modify.
 
 - **`orca_v2/`** — selected V2 mechanical and electronic design files.
   - **`base_basic v2 version start with this folder/`** — **primary starting point** for the standard V2 hand. Contains two conveniently named `.3mf` print projects and the more complete `full v2 hand files/` directory.
@@ -90,7 +50,7 @@ This is the **recommended working collection** for the project, containing the O
 
 ### 2. `full files check it out if have time/` — complete upstream reference archive
 
-This folder preserves a broader snapshot of original ORCA project material. It is **reference material**, not the preferred starting point for this UCF build.
+I kept this folder as a broader archive of original ORCA project material. It is **reference material**, not my preferred starting point for the UCF build.
 
 - **`README.md`** — upstream ORCA file-set overview, including variants, print projects, and scripts.
 - **`assets/`** — upstream documentation image assets (including `banner.png`).
@@ -130,7 +90,7 @@ This folder preserves a broader snapshot of original ORCA project material. It i
 
 ## Planned development: Dynamixel AX-18A conversion
 
-**Status: not started / not yet implemented in the stored design files.** The planned engineering sequence is:
+**Status: not started / not yet implemented in the stored design files.** My planned engineering sequence is:
 
 1. **Document the baseline:** identify the original motor models, number of actuators, mounting points, tendon routing, and electrical interfaces.
 2. **Check AX-18A mechanical compatibility:** body envelope, horn/output geometry, mounting-hole spacing, clearances, and service access.
@@ -144,7 +104,7 @@ Do not print or purchase AX-18A-specific hardware based solely on the current or
 
 ## Credits and licensing
 
-Original ORCA Hand project and design credit belongs to its respective creators and contributors. This repository is a curated copy for UCF project development, not a claim of authorship over the original ORCA designs.
+Original ORCA Hand project and design credit belongs to its respective creators and contributors. I have organized a copy of these files for UCF project development; I do not claim authorship of the original ORCA designs.
 
 - [Official ORCA Hand website](https://www.orcahand.com/)
 - [ORCA Hand hardware project](https://github.com/orcahand/orcahand_hardware)
@@ -152,3 +112,45 @@ Original ORCA Hand project and design credit belongs to its respective creators 
 - [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3)
 
 **License note:** This repository currently has a root `LICENSE` file, while the archived upstream README identifies the ORCA design files as **CC BY 4.0**. Retaining original attribution and applicable upstream licensing is important; the presence of a root license does not automatically supersede the license of copied upstream material.
+
+---
+
+## BOM — Organized by Junyang (Completed)
+
+> [!WARNING]
+> **Do not use the original ORCA Hand README or official BOM as the purchasing authority for this project.** While organizing the BOM, I identified **multiple errors, omissions, and inconsistencies** in the official documentation. Some quantities, dimensions, and hardware revisions do not agree with the updated assembly instructions. The official files remain useful as design references, but **do not order components directly from their lists without checking my organized BOM and the actual CAD/assembly revision**.
+
+**BOM organized by me (Junyang):** [`ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx`](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) — the component and procurement workbook I have already collected, checked, and organized for this project (October 2026). **The BOM organization task is complete; I do not need other team members to review or reorganize it at this stage.** I will handle any remaining technical verification marked `VERIFY`, `VERIFY CAD`, or similar before ordering.
+
+The workbook contains the following worksheets:
+
+| Worksheet | What it covers |
+|---|---|
+| `Read Me` | Scope, quantities, revision cautions, and sourcing notes. |
+| `Common Hardware` | Bearings, pins, magnets, nuts, washers, and screws used across configurations. |
+| `Tendons and PTFE` | UHMWPE tendon line, timing belt, and PTFE guide tubing. |
+| `Printed and Silicone` | Printed parts, molds, PLA, silicone, and skin components. |
+| `Franka Interface` | Optional mounting hardware when attaching the hand to a Franka robot arm. |
+| `Dynamixel DX` | Original Dynamixel configuration: servos, power, communication, cooling, fasteners, and cables. |
+| `Feetech FT` | Alternative Feetech configuration: servos, power, communication, cooling, fasteners, and cables. |
+
+### BOM reference notes
+
+1. **Build scope:** quantities are for **one hand (left or right)**. The original build uses **one** motor configuration (`Dynamixel DX` **or** `Feetech FT`), not both.
+2. **Quantities:** `Assembly Qty` is the installed quantity; `Spare Qty` is the extra allowance; `Purchase Qty` includes listed spares. Units are indicated in the notes (for example, tendon length is in meters).
+3. **Status:** `Confirmed` reflects the current BOM review, **not a guarantee that the item has been physically test-fitted**. `VERIFY`, `VERIFY CAD`, and other qualifications are flagged for my follow-up before ordering.
+4. **Known conflicts:** the two wrist-bearing options (`6×13×5 mm` original and `8×13×4 mm` addendum) are **alternatives**. I will verify the selected CAD/revision; **both should not be purchased by default**. The addendum also introduces `Ø3×50 mm` carpal wrist pins and `Ø2×30 mm` thumb AP pins.
+5. **PTFE and print revisions:** several PTFE diameters/lengths remain to be verified; the finger AP tube count assumes five AP parts. V1100 spools have **four** screw holes, whereas V1000 spools have **five**. I will match parts to the correct print revision.
+6. **Optional hardware:** Franka interface components can be omitted if the hand uses another mounting arrangement.
+7. **Pricing:** supplier, unit price, and extended-cost fields are intentionally available for procurement planning; blanks are **not** zero-cost items.
+
+### Original actuator reference — not the AX-18A redesign
+
+| Original configuration | Wrist actuator | Finger actuators |
+|---|---|---|
+| Dynamixel DX | `XC430-T240BB-T` × 1 | `XC330-T288-T` × 16 |
+| Feetech FT | `HL-3930-Plastic` × 1 | `HL-2915-Plastic` × 16 |
+
+These are **baseline reference configurations**, not motors I intend to purchase automatically. My intended **AX-18A conversion is future work**. I will re-evaluate the original motor counts and power/control parts for the redesigned system; the current workbook is **not yet an AX-18A-specific BOM**.
+
+**Related resources:** [ORCA Hand official site](https://www.orcahand.com/) · [Full fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3) · [`ASSEMBLY_ADDENDUM.md`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/full%20v2%20hand%20files/ASSEMBLY_ADDENDUM.md)
