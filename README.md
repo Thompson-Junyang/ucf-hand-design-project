@@ -12,7 +12,7 @@ Our next major objective is to **replace the original ORCA Hand actuators with D
 ## UCF-Reviewed Bill of Materials (BOM)
 
 > [!WARNING]
-> **Do not use the original ORCA Hand README or official BOM as the purchasing authority for this project.** During our review, we identified **multiple errors, omissions, and inconsistencies** in the official documentation. Some quantities, dimensions, and hardware revisions do not agree with the updated assembly instructions. The official files remain useful as design references, but **do not order components directly from their lists without checking this project's BOM and the actual CAD/assembly revision**.
+> **Do not use the original ORCA Hand README or official BOM as the purchasing authority for this project.** During review, Junyang identified **multiple errors, omissions, and inconsistencies** in the official documentation. Some quantities, dimensions, and hardware revisions do not agree with the updated assembly instructions. The official files remain useful as design references, but **do not order components directly from their lists without checking this project's BOM and the actual CAD/assembly revision**.
 
 **Primary project BOM:** [`ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx`](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) — a reorganized, reviewed component and procurement workbook prepared for this project (October 2026). **Use this workbook first** for the current ORCA V2 baseline, while treating entries marked `VERIFY`, `VERIFY CAD`, or similar as unresolved rather than purchase-ready.
 
