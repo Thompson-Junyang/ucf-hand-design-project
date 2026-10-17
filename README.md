@@ -7,7 +7,7 @@ Our next major objective is to **replace the original ORCA Hand actuators with D
 ## Official ORCA Hand resources
 
 - **Official website:** [ORCA Hand](https://www.orcahand.com/)
-- **Fabrication and assembly tutorial:** [ORCA Hand video tutorial (starting at 8:55)](https://www.youtube.com/watch?v=TgIz7HiyaoU&t=535s)
+- **Fabrication and assembly tutorial:** [ORCA Hand full fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3)
 
 ## UCF-Reviewed Bill of Materials (BOM) — Read Before Purchasing
 
@@ -47,14 +47,14 @@ The workbook contains the following worksheets:
 
 These are **baseline reference configurations**, not motors to purchase automatically. Our intended **AX-18A conversion is future work**. The original motor counts and power/control parts must be re-evaluated for the redesigned system; the current workbook is **not yet an AX-18A-specific BOM**.
 
-**Related resources:** [ORCA Hand official site](https://www.orcahand.com/) · [Fabrication and assembly tutorial (8:55)](https://www.youtube.com/watch?v=TgIz7HiyaoU&t=535s) · [`ASSEMBLY_ADDENDUM.md`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/full%20v2%20hand%20files/ASSEMBLY_ADDENDUM.md)
+**Related resources:** [ORCA Hand official site](https://www.orcahand.com/) · [Full fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3) · [`ASSEMBLY_ADDENDUM.md`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/full%20v2%20hand%20files/ASSEMBLY_ADDENDUM.md)
 
 ## Where to start
 
 1. Open [`all files we corrently need/orca_v2/base_basic v2 version start with this folder/`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/).
 2. Start with `Prints-1100_the hand 3d designed files.3mf` for the hand print plates and `SiliconeMolds-1100_the mold 3d file for silicon skin.3mf` for the silicone-skin molds.
 3. For individual STL and STEP components, open `full v2 hand files/` inside the same directory.
-4. Consult the [UCF-reviewed BOM](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) before purchasing hardware. Read `full v2 hand files/ASSEMBLY_ADDENDUM.md` alongside the [ORCA Hand fabrication and assembly tutorial](https://www.youtube.com/watch?v=TgIz7HiyaoU&t=535s). The addendum includes important corrections about PTFE tubes, thumb pins, carpal bearings, and spools.
+4. Consult the [UCF-reviewed BOM](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) before purchasing hardware. Read `full v2 hand files/ASSEMBLY_ADDENDUM.md` alongside the [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3). The addendum includes important corrections about PTFE tubes, thumb pins, carpal bearings, and spools.
 5. Treat the `touch` and `lite` directories as alternative designs, not as required components of the base build.
 
 > **Important:** The current files include original Dynamixel and Feetech-specific parts. A filename containing `Dynamixel` does **not** establish compatibility with the AX-18A. Check dimensions, horn interface, fasteners, cable routing, torque, and power requirements before fabrication.
@@ -149,6 +149,6 @@ Original ORCA Hand project and design credit belongs to its respective creators 
 - [Official ORCA Hand website](https://www.orcahand.com/)
 - [ORCA Hand hardware project](https://github.com/orcahand/orcahand_hardware)
 - [Original ORCA files](https://github.com/orcahand/orca_files)
-- [ORCA Hand fabrication and assembly tutorial](https://www.youtube.com/watch?v=TgIz7HiyaoU&t=535s)
+- [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3)
 
 **License note:** This repository currently has a root `LICENSE` file, while the archived upstream README identifies the ORCA design files as **CC BY 4.0**. Retaining original attribution and applicable upstream licensing is important; the presence of a root license does not automatically supersede the license of copied upstream material.
