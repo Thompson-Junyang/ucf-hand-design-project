@@ -54,7 +54,7 @@ These are **baseline reference configurations**, not motors to purchase automati
 1. Open [`all files we corrently need/orca_v2/base_basic v2 version start with this folder/`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/).
 2. Start with `Prints-1100_the hand 3d designed files.3mf` for the hand print plates and `SiliconeMolds-1100_the mold 3d file for silicon skin.3mf` for the silicone-skin molds.
 3. For individual STL and STEP components, open `full v2 hand files/` inside the same directory.
-4. Consult the [UCF-reviewed BOM](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) before purchasing hardware. Read `full v2 hand files/ASSEMBLY_ADDENDUM.md` alongside the [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3). The addendum includes important corrections about PTFE tubes, thumb pins, carpal bearings, and spools.
+4. Consult the [Junyang organized BOM](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) before purchasing hardware. Read `full v2 hand files/ASSEMBLY_ADDENDUM.md` alongside the [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3). The addendum includes important corrections about PTFE tubes, thumb pins, carpal bearings, and spools.
 5. Treat the `touch` and `lite` directories as alternative designs, not as required components of the base build.
 
 > **Important:** The current files include original Dynamixel and Feetech-specific parts. A filename containing `Dynamixel` does **not** establish compatibility with the AX-18A. Check dimensions, horn interface, fasteners, cable routing, torque, and power requirements before fabrication.
