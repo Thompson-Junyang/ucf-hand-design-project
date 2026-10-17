@@ -9,7 +9,7 @@ Our next major objective is to **replace the original ORCA Hand actuators with D
 - **Official website:** [ORCA Hand](https://www.orcahand.com/)
 - **Fabrication and assembly tutorial:** [ORCA Hand full fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3)
 
-## UCF-Reviewed Bill of Materials (BOM) — Read Before Purchasing
+## UCF-Reviewed Bill of Materials (BOM)
 
 > [!WARNING]
 > **Do not use the original ORCA Hand README or official BOM as the purchasing authority for this project.** During our review, we identified **multiple errors, omissions, and inconsistencies** in the official documentation. Some quantities, dimensions, and hardware revisions do not agree with the updated assembly instructions. The official files remain useful as design references, but **do not order components directly from their lists without checking this project's BOM and the actual CAD/assembly revision**.
