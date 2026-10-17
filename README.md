@@ -122,17 +122,7 @@ Original ORCA Hand project and design credit belongs to its respective creators 
 
 **BOM organized by me (Junyang):** [`ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx`](ORCA_Hand_V2_Complete_BOM_Organized_by_Junyang.xlsx) — the component and procurement workbook I have already collected, checked, and organized for this project (October 2026). **The BOM organization task is complete; I do not need other team members to review or reorganize it at this stage.** I will handle any remaining technical verification marked `VERIFY`, `VERIFY CAD`, or similar before ordering.
 
-The workbook contains the following worksheets:
 
-| Worksheet | What it covers |
-|---|---|
-| `Read Me` | Scope, quantities, revision cautions, and sourcing notes. |
-| `Common Hardware` | Bearings, pins, magnets, nuts, washers, and screws used across configurations. |
-| `Tendons and PTFE` | UHMWPE tendon line, timing belt, and PTFE guide tubing. |
-| `Printed and Silicone` | Printed parts, molds, PLA, silicone, and skin components. |
-| `Franka Interface` | Optional mounting hardware when attaching the hand to a Franka robot arm. |
-| `Dynamixel DX` | Original Dynamixel configuration: servos, power, communication, cooling, fasteners, and cables. |
-| `Feetech FT` | Alternative Feetech configuration: servos, power, communication, cooling, fasteners, and cables. |
 
 ### BOM reference notes
 
