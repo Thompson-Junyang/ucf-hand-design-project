@@ -182,6 +182,12 @@ These photos show that I have carried out initial silicone casting and demolding
 
 This stage will record the physical assembly of the printed components and hardware, including bearings, pins, tendon routing, PTFE tubing, spools, and silicone skins. I will refer to the official fabrication video and `ASSEMBLY_ADDENDUM.md` while documenting the actual assembly steps and any corrections needed.
 
+#### Step 1. Finger Assembly
+
+I have completed the initial assembly of the finger components, fitting the molded silicone skins onto the printed articulated finger sections. The photo shows the assembled fingers with their tendon lines extending from the base. This documents the finger assembly stage; the complete hand and motor integration are not yet finished.
+
+![Initial ORCA Hand V1100 finger assembly with silicone skins and tendon lines](fabrication_images/10_finger_assembly.jpg)
+
 ### 4. Mechanical Modifications
 
 **Status: Not started.**
