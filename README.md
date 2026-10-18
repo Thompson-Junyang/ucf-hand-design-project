@@ -144,11 +144,35 @@ The following images document my actual V1100 printing process using the tested 
 These images document 3D printing only. Printing the silicone molds does not mean silicone casting has been completed, and printing the original motor-mount structure does not mean the planned AX-18A modification has been implemented.
 
 
-### 2. Silicone Molding
+### 2. Silicone Molding — Initial Casting and Demolding
 
-**Status: To be documented.**
+**Status: Initial silicone molding and demolding completed; process documentation ongoing.**
 
-This stage covers fabrication of the silicone skin using the V1100 mold files. I will record the molding materials, preparation, casting process, curing conditions, and results as I complete and verify them.
+I have started fabricating the silicone skins using the 3D-printed V1100 molds. The photos below document my initial casting, demolding, and organization work. I used a two-part silicone system (Parts A and B). I have not yet documented the exact mixing ratio, curing conditions, or a final quality-validation procedure.
+
+#### Silicone Molding Examples
+
+**1. Silicone casting — mold filling process**
+
+![Silicone being cast into a 3D-printed mold](fabrication_images/05_silicone_casting.jpg)
+
+**2. Demolding — removing the silicone skin from the mold**
+
+![A pink silicone skin being removed from a 3D-printed mold](fabrication_images/06_silicone_demolding.jpg)
+
+**3. Demolded silicone skins — sorting the finished pieces**
+
+![Demolded pink silicone finger skins organized by part](fabrication_images/07_demolded_silicone_skins.jpg)
+
+**4. Mold organization — storing the 3D-printed molds**
+
+![3D-printed silicone molds organized in labeled storage bags](fabrication_images/08_molds_storage.jpg)
+
+**5. Silicone raw materials — two-part A/B silicone**
+
+![Containers of the two-part silicone materials labeled A and B](fabrication_images/09_silicone_materials_ab.jpg)
+
+These photos show that I have carried out initial silicone casting and demolding. They do not establish that the complete set of skins has been finalized or installed on an assembled hand.
 
 ### 3. Mechanical Assembly
 
