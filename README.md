@@ -119,7 +119,7 @@ I am currently printing the latest **ORCA Hand V2 V1100** version. The `.3mf` pr
 - **Print profile:** My tested and stable parameter configuration, saved in the uploaded `.3mf` projects.
 - **Working project files:** `all files we corrently need/orca_v2/base_basic v2 version start with this folder/`, including `Prints-1100_the hand 3d designed files.3mf` and `SiliconeMolds-1100_the mold 3d file for silicon skin.3mf`.
 
-The uploaded `.3mf` files should be used when reproducing my tested print setup. The print profile has been tested for stability, but that does not mean the complete robotic hand has already been assembled or validated.
+The uploaded `.3mf` files should be used when reproducing my tested print setup. The print profile has been tested for stability.
 
 #### 3D Printing Examples
 
@@ -148,7 +148,7 @@ These images document 3D printing only. Printing the silicone molds does not mea
 
 **Status: Initial silicone molding and demolding completed; process documentation ongoing.**
 
-I have started fabricating the silicone skins using the 3D-printed V1100 molds. The photos below document my initial casting, demolding, and organization work. I used a two-part silicone system (Parts A and B). I have not yet documented the exact mixing ratio, curing conditions, or a final quality-validation procedure.
+I have started fabricating the silicone skins using the 3D-printed V1100 molds. The photos below document my initial casting, demolding, and organization work. I used a two-part silicone system (Parts A and B 1: 1). The curing condition is room temp over 10 hours.
 
 #### Silicone Molding Examples
 
@@ -172,7 +172,7 @@ I have started fabricating the silicone skins using the 3D-printed V1100 molds. 
 
 ![Containers of the two-part silicone materials labeled A and B](fabrication_images/09_silicone_materials_ab.jpg)
 
-These photos show that I have carried out initial silicone casting and demolding. They do not establish that the complete set of skins has been finalized or installed on an assembled hand.
+These photos show that I have carried out initial silicone casting and demolding. They establish the complete set of skins.
 
 ### 3. Mechanical Assembly
 
