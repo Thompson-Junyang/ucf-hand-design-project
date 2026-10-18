@@ -1,6 +1,7 @@
 # UCF Robotic Hand Design Project
 
-Written by Junyang. I created this repository as an **organized copy of the original ORCA Hand design files** for the UCF robotic hand project. So far, I have collected, reviewed, and sorted the files into a more convenient structure. **I have not yet redesigned the hardware.**
+Written by Junyang. 
+I created this repository as an **organized copy of the original ORCA Hand design files** for the UCF robotic hand project. So far, I have collected, reviewed, and sorted the files into a more convenient structure. **I have not yet redesigned the hardware.**
 
 My next major objective is to **replace the original ORCA Hand actuators with Dynamixel AX-18A servos**. The AX-18A conversion is **planned, not implemented yet**; the current models should not be assumed to fit AX-18A motors.
 
