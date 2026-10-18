@@ -102,18 +102,77 @@ I kept this folder as a broader archive of original ORCA project material. It is
 
 Do not print or purchase AX-18A-specific hardware based solely on the current original motor-holder files; the conversion needs its own validated design.
 
-## Credits and licensing
+## Fabrication Process
 
-Original ORCA Hand project and design credit belongs to its respective creators and contributors. I have organized a copy of these files for UCF project development; I do not claim authorship of the original ORCA designs.
+This section records my fabrication progress for the ORCA Hand V2 build. I will update each stage as the work progresses.
 
-- [Official ORCA Hand website](https://www.orcahand.com/)
-- [ORCA Hand hardware project](https://github.com/orcahand/orcahand_hardware)
-- [Original ORCA files](https://github.com/orcahand/orca_files)
-- [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3)
+### 1. 3D Printing — Tested Print Project
 
-**License note:** This repository currently has a root `LICENSE` file, while the archived upstream README identifies the ORCA design files as **CC BY 4.0**. Retaining original attribution and applicable upstream licensing is important; the presence of a root license does not automatically supersede the license of copied upstream material.
+**Status: Print settings tested and stable.**
 
----
+I am currently printing the latest **ORCA Hand V2 V1100** version. The `.3mf` project files I uploaded to this repository are **my optimized printing projects**, rather than unmodified upstream print settings. I prepared and tested these projects for the **Bambu X2D** printer.
+
+- **Design revision:** ORCA Hand V2, V1100.
+- **Printer:** Bambu X2D.
+- **Primary printing material:** PLA.
+- **Support material:** PETG (support interface/material).
+- **Print profile:** My tested and stable parameter configuration, saved in the uploaded `.3mf` projects.
+- **Working project files:** `all files we corrently need/orca_v2/base_basic v2 version start with this folder/`, including `Prints-1100_the hand 3d designed files.3mf` and `SiliconeMolds-1100_the mold 3d file for silicon skin.3mf`.
+
+The uploaded `.3mf` files should be used when reproducing my tested print setup. The print profile has been tested for stability, but that does not mean the complete robotic hand has already been assembled or validated.
+
+#### 3D Printing Examples
+
+The following images document my actual V1100 printing process using the tested `.3mf` projects. They show the different groups of components being printed, including the silicone-skin molds.
+
+**1. Finger components — printing process**
+
+![ORCA Hand V1100 finger components being printed](fabrication_images/01_finger_printing.png)
+
+**2. Wrist components — printing process**
+
+![ORCA Hand V1100 wrist component being printed](fabrication_images/02_wrist_printing.png)
+
+**3. Forearm structure and motor-mount section — printing process**
+
+![ORCA Hand V1100 forearm structure including the original motor-mount section being printed](fabrication_images/03_forearm_motor_mount_printing.png)
+
+**4. Silicone-skin molds — 3D printing process**
+
+![ORCA Hand V1100 silicone-skin molds being printed](fabrication_images/04_silicone_skin_mold_printing.png)
+
+These images document 3D printing only. Printing the silicone molds does not mean silicone casting has been completed, and printing the original motor-mount structure does not mean the planned AX-18A modification has been implemented.
+
+
+### 2. Silicone Molding
+
+**Status: To be documented.**
+
+This stage covers fabrication of the silicone skin using the V1100 mold files. I will record the molding materials, preparation, casting process, curing conditions, and results as I complete and verify them.
+
+### 3. Mechanical Assembly
+
+**Status: To be documented.**
+
+This stage will record the physical assembly of the printed components and hardware, including bearings, pins, tendon routing, PTFE tubing, spools, and silicone skins. I will refer to the official fabrication video and `ASSEMBLY_ADDENDUM.md` while documenting the actual assembly steps and any corrections needed.
+
+### 4. Mechanical Modifications
+
+**Status: Not started.**
+
+The planned mechanical changes include adapting the original ORCA Hand structure for Dynamixel AX-18A servos. I have not yet completed any modified CAD, motor mounts, or revised transmission components.
+
+### 5. Motor Integration
+
+**Status: Not started.**
+
+This stage will cover installing and connecting the AX-18A motors, including mechanical mounting, power distribution, communication wiring, and initial actuator tests. No AX-18A motor integration has been completed yet.
+
+### 6. Embedded Programming
+
+**Status: Not started.**
+
+This stage will document firmware and control development for the motors and hand, including communication, actuator commands, calibration, and motion testing. No project-specific embedded implementation has been completed yet.
 
 ## BOM — Organized by Junyang (Completed)
 
@@ -144,3 +203,16 @@ Original ORCA Hand project and design credit belongs to its respective creators 
 These are **baseline reference configurations**, not motors I intend to purchase automatically. My intended **AX-18A conversion is future work**. I will re-evaluate the original motor counts and power/control parts for the redesigned system; the current workbook is **not yet an AX-18A-specific BOM**.
 
 **Related resources:** [ORCA Hand official site](https://www.orcahand.com/) · [Full fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3) · [`ASSEMBLY_ADDENDUM.md`](all%20files%20we%20corrently%20need/orca_v2/base_basic%20v2%20version%20start%20with%20this%20folder/full%20v2%20hand%20files/ASSEMBLY_ADDENDUM.md)
+
+## Credits and licensing
+
+Original ORCA Hand project and design credit belongs to its respective creators and contributors. I have organized a copy of these files for UCF project development; I do not claim authorship of the original ORCA designs.
+
+- [Official ORCA Hand website](https://www.orcahand.com/)
+- [ORCA Hand hardware project](https://github.com/orcahand/orcahand_hardware)
+- [Original ORCA files](https://github.com/orcahand/orca_files)
+- [ORCA Hand fabrication and assembly tutorial](https://youtu.be/TgIz7HiyaoU?si=PWOCt1g08h2LHRF3)
+
+**License note:** This repository currently has a root `LICENSE` file, while the archived upstream README identifies the ORCA design files as **CC BY 4.0**. Retaining original attribution and applicable upstream licensing is important; the presence of a root license does not automatically supersede the license of copied upstream material.
+
+---
