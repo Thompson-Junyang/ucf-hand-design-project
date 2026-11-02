@@ -110,7 +110,7 @@ This section records my fabrication progress for the ORCA Hand V2 build. I will 
 
 ### 1. 3D Printing — Tested Print Project
 
-**Status: Print settings tested and stable.**
+**Status as of October 23, 2026: Print settings tested and stable.**
 
 I am currently printing the latest **ORCA Hand V2 V1100** version. The `.3mf` project files I uploaded to this repository are **my optimized printing projects**, rather than unmodified upstream print settings. I prepared and tested these projects for the **Bambu X2D** printer.
 
@@ -146,9 +146,51 @@ The following images document my actual V1100 printing process using the tested 
 These images document 3D printing only. Printing the silicone molds does not mean silicone casting has been completed, and printing the original motor-mount structure does not mean the planned AX-18A modification has been implemented.
 
 
+### November 2, 2026 — Multi-Material Support Printing (PLA/PETG)
+
+**Status: Support-interface printing method researched and applied to ORCA Hand V1100 slicing layouts.**
+
+I investigated using **PLA and PETG as dissimilar support materials** to improve the surface finish of supported regions in FDM printing. PLA and PETG generally adhere poorly to each other under suitable printing conditions. This makes it possible to use **PLA as the support interface for PETG parts**, or **PETG as the support interface for PLA parts**, so the support can separate more easily from the printed model.
+
+In conventional same-material supports, a gap is often required between the support and the model to allow removal, which can leave rough undersides. With a properly tuned dissimilar-material interface, the support can be placed closer to the model, potentially producing **smoother supported surfaces and cleaner overhangs** while reducing support-removal damage. This is especially useful for the complex geometries and overhangs in the ORCA Hand parts. Print temperature, purge/flush volume, interface spacing, and material compatibility still require appropriate slicer settings and validation.
+
+#### Reference Examples — Multi-Material Support Method
+
+The first four images are explanatory references attributed to Bambu Lab and Prusa, illustrating dissimilar-material support and the distinction between the support base and the support interface. They are **reference illustrations, not photographs of my own prints**.
+
+**1. Surface-finish comparison — PETG with PLA support vs. PETG support**
+
+![Reference comparison of PETG printed with PLA support and PETG support](fabrication_images/11_support_reference_surface_comparison.png)
+
+**2. Material arrangement — PLA model and PETG support interface**
+
+![Reference diagram illustrating PLA and PETG support materials](fabrication_images/12_support_reference_material_arrangement.png)
+
+**3. Support-removal example — dissimilar-material and same-material supports**
+
+![Reference example comparing support removal](fabrication_images/13_support_reference_removal_comparison.png)
+
+**4. Support interface versus support base**
+
+![Reference illustration labeling support interface and support base](fabrication_images/14_support_reference_interface_base.png)
+
+#### Application to the ORCA Hand V1100 Print Project
+
+I applied the dissimilar-material support approach to the ORCA Hand print layout in the slicer. The following screenshots show the hand components, their complex overhangs, and the configured support structures. These screenshots document the **slicing setup and implementation**, rather than a measured comparison of finished printed surfaces.
+
+**5. ORCA Hand slicing layout — multi-material support configuration (view 1)**
+
+![ORCA Hand V1100 slicing layout with support structures, view 1](fabrication_images/15_orca_multimaterial_support_slicer_view1.png)
+
+**6. ORCA Hand slicing layout — multi-material support configuration (view 2)**
+
+![ORCA Hand V1100 slicing layout with support structures, view 2](fabrication_images/16_orca_multimaterial_support_slicer_view2.png)
+
+**Next verification:** Print and inspect the supported surfaces on the actual ORCA Hand parts to compare removal quality and surface finish with the previous support setup.
+
 ### 2. Silicone Molding — Initial Casting and Demolding
 
-**Status: Initial silicone molding and demolding completed; process documentation ongoing.**
+**Status as of October 23, 2026: Initial silicone molding and demolding completed; process documentation ongoing.**
 
 I have started fabricating the silicone skins using the 3D-printed V1100 molds. The photos below document my initial casting, demolding, and organization work. I used a two-part silicone system (Parts A and B 1: 1). The curing condition is room temp over 10 hours.
 
@@ -178,7 +220,7 @@ These photos show that I have carried out initial silicone casting and demolding
 
 ### 3. Mechanical Assembly
 
-**Status: To be documented.**
+**Status as of October 23, 2026: Initial finger assembly documented; additional assembly work ongoing.**
 
 This stage will record the physical assembly of the printed components and hardware, including bearings, pins, tendon routing, PTFE tubing, spools, and silicone skins. I will refer to the official fabrication video and `ASSEMBLY_ADDENDUM.md` while documenting the actual assembly steps and any corrections needed.
 
@@ -190,19 +232,19 @@ I have completed the initial assembly of the finger components, fitting the mold
 
 ### 4. Mechanical Modifications
 
-**Status: Not started.**
+**Status as of October 23, 2026: Not started.**
 
 The planned mechanical changes include adapting the original ORCA Hand structure for Dynamixel AX-18A servos. I have not yet completed any modified CAD, motor mounts, or revised transmission components.
 
 ### 5. Motor Integration
 
-**Status: Not started.**
+**Status as of October 23, 2026: Not started.**
 
 This stage will cover installing and connecting the AX-18A motors, including mechanical mounting, power distribution, communication wiring, and initial actuator tests. No AX-18A motor integration has been completed yet.
 
 ### 6. Embedded Programming
 
-**Status: Not started.**
+**Status as of October 23, 2026: Not started.**
 
 This stage will document firmware and control development for the motors and hand, including communication, actuator commands, calibration, and motion testing. No project-specific embedded implementation has been completed yet.
 
