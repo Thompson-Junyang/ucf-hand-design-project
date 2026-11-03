@@ -244,8 +244,6 @@ This stage will cover installing and connecting the AX-18A motors, including mec
 
 ### 6. Embedded Programming
 
-**Status as of October 23, 2026: Not started.**
-
 This stage documents firmware and control development for the motors and hand, including communication, actuator commands, calibration, and motion testing.
 
 #### OpenCR Controller and Arduino IDE Setup (Windows)
