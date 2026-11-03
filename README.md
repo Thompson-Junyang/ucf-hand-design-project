@@ -248,6 +248,30 @@ This stage will cover installing and connecting the AX-18A motors, including mec
 
 This stage documents firmware and control development for the motors and hand, including communication, actuator commands, calibration, and motion testing.
 
+#### OpenCR Controller and Arduino IDE Setup (Windows)
+
+I am using the **ROBOTIS OpenCR board** as the embedded development controller for the AX-18A motor tests. The board provides USB connectivity for programming and serial debugging, DYNAMIXEL communication interfaces, and additional I/O for future development.
+
+![ROBOTIS OpenCR board interface and connector overview](fabrication_images/18_opencr_board_overview.png)
+
+**Arduino IDE and OpenCR board installation**
+
+1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software) on Windows. The original OpenCR installation guide specifies Arduino IDE version 1.6.4 or later.
+2. In Arduino IDE, open **File → Preferences** and add the following URL under **Additional Boards Manager URLs**:
+
+   ```text
+   https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json
+   ```
+
+3. Open **Tools → Board → Boards Manager**, search for **OpenCR**, and install the **OpenCR by ROBOTIS** board package. The package download and installation may take some time.
+4. Select the **OpenCR Board** from **Tools → Board**.
+5. Connect the OpenCR board to the PC using USB. Under **Tools → Port**, select the COM port assigned to the connected board (the example `COM1` in some instructions is not a universal port number).
+6. Select the board and port before uploading sketches, and use the serial monitor for debugging when needed.
+
+**USB driver note:** The original installation instructions mention an ST USB CDC driver for **Windows versions earlier than 8.x**. That legacy requirement should not be assumed necessary on modern Windows systems. The referenced ST driver page is [STSW-STM32102](https://www.st.com/en/development-tools/stsw-stm32102.html).
+
+**OpenCR software reference:** [ROBOTIS OpenCR Arduino source and board package](https://github.com/ROBOTIS-GIT/OpenCR).
+
 ### November 3, 2026 — Embedded Programming Progress: AX-18A Motor Control
 
 **Status: Initial embedded motor-control programs developed; actuator communication and position-control testing in progress.**
